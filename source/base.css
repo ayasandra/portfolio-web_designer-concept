@@ -1,0 +1,45 @@
+.page-title {
+   line-height: 47px;
+   font-size: calc(24px + 12 * (100vw / 1300));
+   color: #25202F;
+   font-weight: 700;
+}
+
+.page {
+   max-width: 1300px;
+   margin: 0 auto;
+   font-family: 'Red Hat Display', sans-serif;
+}
+
+.text {
+   line-height: 32px;
+   font-size: calc(12px + 4 * (100vw / 1300));
+   color: #47444E; 
+}
+
+.button {
+   background-color: #8643DC;
+   color: #fff;
+   width: 200px;
+   height: 60px;
+   border-radius: 100px;
+   font-weight: 600;
+}
+
+.button:hover {
+   background-color:#3e1475;
+   transition: all 0.4s ease 0s;
+}
+
+.section-name {
+   color: #8643DC;
+   font-size: calc(14px + 4 * (100vw / 1300));
+}
+
+.section-line {
+   background-color: #8643DC;
+   width: 50px;
+   height: 2px;
+   display: block;
+   margin: 10px 0 15px 0;
+}
